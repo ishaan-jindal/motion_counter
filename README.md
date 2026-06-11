@@ -35,7 +35,7 @@ Add `motion_counter` to your `pubspec.yaml` dependencies:
 
 ```yaml
 dependencies:
-  motion_counter: ^1.0.0
+  motion_counter: ^1.0.1
 ```
 
 ---
