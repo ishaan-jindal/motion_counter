@@ -1,6 +1,6 @@
 # Motion Counter
 
-A production-grade Flutter package for animating numeric value changes with physics-driven, per-digit transitions. 
+A production-grade Flutter package for animating numeric value changes with physics-driven, per-digit transitions.
 
 Each digit behaves as an independent animated entity. Only the digits that actually change will animate, while unchanged digits remain perfectly still.
 
