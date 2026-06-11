@@ -1,0 +1,10 @@
+export 'src/types.dart';
+export 'src/number_decomposer.dart' show CharPart, NumberDecomposer;
+export 'src/widgets/motion_counter_widget.dart';
+export 'src/widgets/digit_widget.dart';
+export 'src/widgets/separator_widget.dart';
+export 'src/animations/animation_strategy.dart';
+export 'src/animations/odometer_strategy.dart';
+export 'src/animations/spring_strategy.dart';
+export 'src/animations/slot_strategy.dart';
+export 'src/animations/mechanical_strategy.dart';
