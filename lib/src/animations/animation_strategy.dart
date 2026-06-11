@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 /// Abstract base class for digit transition animations.
 abstract class AnimationStrategy {
+  /// Builds the animated widget to transition from [oldDigit] to [newDigit].
   Widget buildTransition({
     required int oldDigit,
     required int newDigit,
@@ -12,6 +13,7 @@ abstract class AnimationStrategy {
     required bool scrollUp,
   });
 
+  /// Builds a static, non-animating layout displaying [digit].
   Widget buildStatic({
     required int digit,
     required TextStyle style,
@@ -31,6 +33,7 @@ abstract class AnimationStrategy {
     );
   }
 
+  /// Helper to render a single, centered digit cell.
   @protected
   Widget buildDigitCell(
     int digit,

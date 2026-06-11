@@ -1,8 +1,18 @@
 # Motion Counter
 
-A Flutter package for animating numeric value changes with physics-driven, per-digit transitions.
+A production-grade Flutter package for animating numeric value changes with physics-driven, per-digit transitions. 
 
 Each digit behaves as an independent animated entity. Only the digits that actually change will animate, while unchanged digits remain perfectly still.
+
+---
+
+## Animation Styles Preview
+
+| Odometer | Spring | Slot | Mechanical |
+|:---:|:---:|:---:|:---:|
+| ![Odometer Style](doc/odometer.gif) | ![Spring Style](doc/spring.gif) | ![Slot Style](doc/slot.gif) | ![Mechanical Style](doc/mechanical.gif) |
+
+*(To see these previews, place your recorded `.gif` files inside the `doc/` directory of your repository)*
 
 ---
 
@@ -16,7 +26,7 @@ Each digit behaves as an independent animated entity. Only the digits that actua
   - `odometer`: Classic mechanical rolling digits.
   - `spring`: Elastic slide animation with physics overshoot and bounce.
   - `slot`: Rapid multi-revolution slot machine spin.
-  - `mechanical`: Industrial snap-into-place transitions.
+  - `mechanical`: Sharp snap-into-place transitions.
 
 ---
 
@@ -26,7 +36,7 @@ Add `motion_counter` to your `pubspec.yaml` dependencies:
 
 ```yaml
 dependencies:
-  motion_counter: ^0.1.0
+  motion_counter: ^1.0.0
 ```
 
 ---

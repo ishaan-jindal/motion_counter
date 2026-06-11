@@ -12,16 +12,34 @@ import '../animations/mechanical_strategy.dart';
 /// Tracks its own old/new digit state internally. When [digit] changes,
 /// it animates from the previous value to the new value.
 class DigitWidget extends StatefulWidget {
+  /// The target digit to display.
   final int digit;
+
+  /// The animation style used to transition this digit.
   final AnimationType animationType;
+
+  /// The duration of the transition animation.
   final Duration duration;
+
+  /// The easing curve used for the transition animation.
   final Curve curve;
+
+  /// The stagger delay applied before starting this digit's animation.
   final Duration staggerDelay;
+
+  /// The text style applied to the digit.
   final TextStyle style;
+
+  /// The height constraint of the digit bounding box.
   final double digitHeight;
+
+  /// The width constraint of the digit bounding box.
   final double digitWidth;
+
+  /// Whether the value scroll movement is upward (incrementing) or downward.
   final bool scrollUp;
 
+  /// Creates an animated [DigitWidget].
   const DigitWidget({
     super.key,
     required this.digit,

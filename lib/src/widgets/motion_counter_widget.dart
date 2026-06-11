@@ -23,18 +23,41 @@ import 'separator_widget.dart';
 /// MotionCounter.compact(value: 1500000)
 /// ```
 class MotionCounter extends StatefulWidget {
+  /// The current numeric value to display and animate.
   final num value;
+
+  /// The animation physics/style used to transition digits.
   final AnimationType animationType;
+
+  /// The duration of the transition animation for each digit.
   final Duration duration;
+
+  /// The easing curve used for the digit transition animations.
   final Curve curve;
+
+  /// The stagger delay applied to consecutive digit transitions from right-to-left.
   final Duration stagger;
+
+  /// The text style applied to the displayed digits and separators.
   final TextStyle? style;
+
+  /// A custom number formatter to format the displayed numeric value.
   final NumberFormat? numberFormat;
+
+  /// Whether to group digits with commas (e.g. 1,234,567).
+  /// Ignored if a custom [numberFormat] is provided.
   final bool grouping;
+
+  /// A static string prefix displayed before the digits.
   final String prefix;
+
+  /// A static string suffix displayed after the digits.
   final String suffix;
+
+  /// The minimum number of digits to display in the integer part, zero-padded if necessary.
   final int? minDigits;
 
+  /// Creates a [MotionCounter] widget that animates changes to [value].
   const MotionCounter({
     super.key,
     required this.value,
