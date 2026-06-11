@@ -10,7 +10,7 @@ Each digit behaves as an independent animated entity. Only the digits that actua
 
 | Odometer | Spring | Slot | Mechanical |
 |:---:|:---:|:---:|:---:|
-| ![Odometer Style](doc/odometer.gif) | ![Spring Style](doc/spring.gif) | ![Slot Style](doc/slot.gif) | ![Mechanical Style](doc/mechanical.gif) |
+| ![Odometer Style](docs/odometer.gif) | ![Spring Style](docs/spring.gif) | ![Slot Style](docs/slot.gif) | ![Mechanical Style](docs/mechanical.gif) |
 
 
 ---
