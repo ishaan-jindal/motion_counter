@@ -12,7 +12,6 @@ Each digit behaves as an independent animated entity. Only the digits that actua
 |:---:|:---:|:---:|:---:|
 | ![Odometer Style](doc/odometer.gif) | ![Spring Style](doc/spring.gif) | ![Slot Style](doc/slot.gif) | ![Mechanical Style](doc/mechanical.gif) |
 
-*(To see these previews, place your recorded `.gif` files inside the `doc/` directory of your repository)*
 
 ---
 
