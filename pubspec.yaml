@@ -1,6 +1,6 @@
 name: motion_counter
 description: "Flutter package for animating numeric values with beautiful, physics-driven digit transitions."
-version: 1.0.0
+version: 1.0.1
 
 homepage: https://github.com/ishaan-jindal/motion_counter
 repository: https://github.com/ishaan-jindal/motion_counter

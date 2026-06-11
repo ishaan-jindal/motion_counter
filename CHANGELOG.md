@@ -15,3 +15,9 @@
   - `MotionCounter.compact`: Formats large numbers compactly (e.g. 1.5M, 2.3K).
 - **Stagger cascade**: Added staggering effects that propagate animations across digits (from right-to-left).
 - **Fixed Width Padding (`minDigits`)**: Added support for zero-padding the integer part of values, keeping digit counts uniform for countdowns, clocks, or scoreboards.
+
+## 1.0.1
+
+- Added README animations.
+- Improved documentation.
+- Updated examples.
