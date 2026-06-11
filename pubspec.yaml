@@ -1,7 +1,16 @@
 name: motion_counter
 description: "Flutter package for animating numeric values with beautiful, physics-driven digit transitions."
 version: 1.0.0
-homepage:
+
+homepage: https://github.com/ishaan-jindal/motion_counter
+repository: https://github.com/ishaan-jindal/motion_counter
+issue_tracker: https://github.com/ishaan-jindal/motion_counter/issues
+
+topics:
+  - animation
+  - counter
+  - odometer
+  - flutter
 
 environment:
   sdk: ^3.12.1
